@@ -4,14 +4,6 @@ import Title from "./Images/MC-logo-final_MC-logo-horizontal.svg";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const initialText = "Any News Announecment Events Acticitues in your village now you can Update in Murthy Chat.";
-  const [brokenWords, setBrokenWords] = useState([]);
-
-  useEffect(() => {
-    const words = initialText.split(/\s+/);
-    setBrokenWords(words);
-  }, []);
-
   const handleInputChange = (e) => {
     setSearchTerm(e.target.value);
   };
