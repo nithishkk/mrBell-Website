@@ -1,76 +1,39 @@
-import React ,{useState}from 'react';
-import Logo from "../Images/unnamed.webp"
-import NavBar from "./NavBar"
+import { useState } from "react";
+import styled from "styled-components";
 
-export default function SideBar() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+const ModalBackground = styled.div`
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
-  const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);
-  };
- 
+const ModalContent = styled.div`
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+`;
+
+export const Modal = ({ children }) => {
+  const [show, setShow] = useState(false);
+
   return (
-   <>
-      <div className={`wrapper ${isSidebarOpen ? 'open' : ''}`}>
-        <div className="header">
-          <img src={Logo} alt="Logo" className='Logo' />
-          <span>Mr Bell</span>
-        </div>
-        <div className="content">
-          {/* Your repeated content goes here */}
-          {/* ... */}
-          <p>Your content goes here. Add more text and elements...</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-       <p>whats app</p>
-       <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-       <p>whats app</p>
-
-       <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-       <p>whats app</p>
-       <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-       <p>whats app</p>
-       <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-       <p>whats app</p>
-       <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-         <p>Murth Chart</p>
-       <p>whats app</p>
-       
-         
-
-          
-          {/* ... */}
-        </div>
-        <div className="footer">
-          hh
-        </div>
-      </div>
-
-      <NavBar onMenuClick={toggleSidebar} />
-
+    <>
+      <button onClick={() => setShow(true)}>Open Modal</button>
+      {show && (
+        <ModalBackground onClick={() => setShow(false)}>
+          <ModalContent onClick={(e) => e.stopPropagation()}>
+            <button onClick={() => setShow(false)}>Close Modal</button>
+            {children}
+          </ModalContent>
+        </ModalBackground>
+      )}
     </>
-    
   );
-}
+};
