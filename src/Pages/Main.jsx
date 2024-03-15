@@ -20,8 +20,10 @@ function Main() {
   <div className="left-side">
     <div className='Murthy_Chart'>
       <h1>Murthy Chat</h1>
+      <br/>
       <p>Chat Room</p>
     </div>
+    <div class="search-container">
     <textarea
       value={searchTerm}
       onChange={handleInputChange}
@@ -30,7 +32,9 @@ function Main() {
       rows={4}
       cols={50}
     />
-    <p className="SearchName">{searchTerm}</p>
+        <p className="SearchName">{searchTerm}</p>
+
+  </div>
   </div>
 
   <div className="right-side">

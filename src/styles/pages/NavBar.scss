@@ -29,7 +29,8 @@
 
 .Murthy_Chart {
   margin-top: 30px;
-  margin-left: 20px;
+  margin-left: 0px;
+  display: inline-block; 
 }
 
 .img_logo {
@@ -40,6 +41,9 @@
 .Chart_Room {
   font-size: 30px;
   margin-left: 30px;
+}
+.search-container {
+  flex: 1;
 }
 
 .search-input {
@@ -53,19 +57,48 @@
   max-width: 700px; /* Added max-width */
   font-size: 16px;
   outline: none;
+  overflow: hidden; /* Hide scrollbar */
+  resize: none; /* Disable resizing */
+  // width: auto; /* Or specify a fixed width if needed */
+  height: 15vh;
+  // overflow: auto; /* Changed overflow to auto */
 }
 
+
+// .SearchName{
+//   font-size: 20px;
+//   width: "200px";
+//    height: auto;
+//   font-style: oblique;
+//   margin-top: 1px;
+//   margin-left: 20px;
+//   margin-right: 20px;
+//   padding-left: 30px;
+//   white-space: pre-wrap;
+//   word-wrap: break-word;
+//   overflow: hidden;
+// }
 .SearchName {
   font-size: 20px;
-  width: "200px";
+  width: auto;
+  max-height: 200px; /* Specify a maximum height */
   font-style: oblique;
-  margin-top: 20px;
+  margin-top: 1px;
   margin-left: 20px;
   margin-right: 20px;
   padding-left: 30px;
   white-space: pre-wrap;
   word-wrap: break-word;
+  overflow-y: auto; /* Display scrollbar when content exceeds max-height */
 }
+
+/* Hide scrollbar for .SearchName */
+.SearchName::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+
 
 .right-side {
   height: 100vh;
@@ -85,6 +118,7 @@
   font-size: 17px;
   margin-top: 25px;
   margin-left: 10px;
+  display: inline-block; 
 }
 
 .Contant {
@@ -138,7 +172,9 @@
 
 @media (max-width: 700px) {
   .container {
-    grid-template-columns: 100%; /* Adjusted to one column for small screens */
+    display: grid;
+    grid-template-columns: 97.23vh; /* Adjusted to one column for small screens */
+    grid-template-rows: 60% 40%; /* Left side 60%, Right side 40% */
   }
 
   .left-side {
@@ -165,11 +201,11 @@
     width: 100px;
     height: 200px;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .Links {
     display: flex;
-    margin-top: 120px;
+    margin-top: 0px;
     justify-content: space-around;
   }
   
@@ -177,7 +213,8 @@
     font-size: 15px;
     width: 165px;
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 10px;
     color: #3e2723;
   }
 }
+
