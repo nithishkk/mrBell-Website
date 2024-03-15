@@ -1,31 +1,54 @@
+.Container {
+  margin: 2px;
+  position: relative;
+  width: 100%; /* Adjusted width to make it responsive */
+  max-width: 850px; /* Added max-width for better responsiveness */
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.terms-container {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-  
-    h1 {
-      color: #333;
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
+.Container_item {
+  margin-top: 40px;
+}
 
-    h2 {
-      color: #555;
-      font-size: 20px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  
-    /* Example style for paragraphs */
-    p {
-      color: #666;
-      font-size: 16px;
-      line-height: 1.5;
-      margin-bottom: 15px;
-    }
-  
-    /* Add more styles as needed */
+.WelCome_Name {
+  color: #981f4d;
+  margin-top: 10px;
+  margin-left: 50%; /* Adjusted margin to center the text horizontally */
+  transform: translateX(-50%); /* Center the text horizontally */
+}
+
+.Content_detailes {
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .WelCome_Name {
+    margin-left: 40%; /* Adjusted margin for smaller screens */
   }
-  
+}
+
+@media (max-width: 992px) {
+  .WelCome_Name {
+    margin-left: 30%; /* Further adjusted margin for even smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .Container {
+    width: 90%; /* Adjusted width for smaller screens */
+  }
+
+  .WelCome_Name {
+    margin-left: 20px; /* Adjusted margin for smaller screens */
+    text-align: center; /* Center the text horizontally */
+  }
+}
+
+@media (max-width: 576px) {
+  .WelCome_Name {
+    margin-left: 100px; /* Adjusted margin for even smaller screens */
+  }
+}

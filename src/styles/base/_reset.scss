@@ -60,12 +60,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--white-color);
     color: var (--bg-color-3);
+   
 }
 
-section {
-    position: relative;
-    overflow: hidden;
-}
+// section {
+//     position: relative;
+//     overflow: hidden;
+// }
 
 input,
 button,
@@ -111,7 +112,6 @@ svg {
     vertical-align: middle;
     user-select: none;
 }
-
 del {
     color: var(--text-muted);
 }
