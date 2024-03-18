@@ -34,13 +34,20 @@
 
 .Murthy_Chart {
   margin-top: 0px;
-  margin-left: 15px;
+  margin-left: 22px;
   display: inline-block; 
+}
+.Chat-Room{
+  margin-left: 22px;
 }
 
 .img_logo {
   width: 250px;
   height: 80px;
+}
+.Title-img{
+  height: 90px;
+  width: 200px;
 }
 
 .Chart_Room {
@@ -150,7 +157,7 @@
 
 .Label_Name {
   font-size: 17px;
-  padding-top: 50px;
+  padding-top: 80px;
   margin-left: 0px;
   // display: inline-block; 
 }
@@ -194,7 +201,7 @@
 .Links {
   display: flex;
   justify-content: space-around; /* Distribute space evenly between items */
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .Links a {

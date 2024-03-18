@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Title from '../Images/MC-logo-final_MC-logo-horizontal.svg';
+import Title from '../Images/MC-logo-horizontal.svg';
 import Name from '../Images/WhatsApp Image 2024-03-11 at 8.25.45 PM.jpeg';
 import NameTitle from '../Images/Yellow Did you know interesting fact Instagram post.png';
+
 
 function Main() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -19,12 +20,12 @@ function Main() {
     </div> */}
   <div className="left-side">
     <div className='Murthy_Chart'>
-      <Link to ="/" className='Top-Name'>
+      {/* <Link to ="/" className='Top-Name'>
       <h1>Murthy Chat</h1>
-      </Link>
-     
+      </Link> */}
+      <img src={Title} alt='Title' className='Title-img'/>    
       <br/>
-      <p>Chat Room</p>
+      <p className='Chat-Room'>Chat Room</p>
     </div>
     <div class="search-container">
     <textarea
