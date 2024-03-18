@@ -1,11 +1,14 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default function TermsAndConditions() {
   return (
     <div className='Container'>
       <section className='Container_item'>
-      <h4 className='WelCome_Name'>Welcome to MurthyChat</h4>
+      <h4 className='WelCome_Name'>Terms</h4>
+      <p className='WelCome'>Welcome to Murthy Chat</p>
       <p className='Content_detailes' >
           Here we are dreaming of Unite village communities & Documenting village
           life. To help that to happen, we want to be extra clear about what it
@@ -19,8 +22,8 @@ export default function TermsAndConditions() {
         &nbsp;
       <p className='Content_detailes'>
         To do that, we created these Terms of Service (“Terms”), our Privacy
-        Policy (<a href="insert your privacy policy link here">Link</a>), and
-        Community Standards (<a href="insert your community standards link here">Link</a>) (together the “User Agreement”). Throughout the User Agreement,
+        Policy (<Link to="/privacy-policy">privacy-policy</Link>), and
+        Community Standards (<Link to="/community-standards">community-standards</Link>) (together the “User Agreement”). Throughout the User Agreement,
         some words have specific meanings and they should be interpreted the
         same way wherever they are used. If anything is unclear, or you don’t
         understand what we’re saying – don’t hesitate to reach out. Our goal is
@@ -85,7 +88,7 @@ export default function TermsAndConditions() {
       &nbsp;
       &nbsp;
       <p className='Content_detailes'>
-        Our Privacy Policy (<a href="insert your privacy policy link here">Link</a>) describes what information you share with us, when it is shared, and how we
+        Our Privacy Policy (<Link to="/privacy-policy">privacy-policy</Link>) describes what information you share with us, when it is shared, and how we
         handle it when you use our Services. By using our services, you
         understand and consent that we must collect, use, store, process, share,
         and transfer this information to countries where we operate our Services
@@ -129,7 +132,7 @@ export default function TermsAndConditions() {
         hateful content, child sexual exploitation, sexual abuse, promotion of
         suicide or self-harm, intellectual property theft, or other illegal
         activities. For detailed information, see our Community Standards (
-        <a href="insert your community standards link here">Link</a>), which are part of the User Agreement.
+          <Link to="/community-standards">Community Standards</Link>), which are part of the User Agreement.
       </p>
       &nbsp;
         &nbsp;

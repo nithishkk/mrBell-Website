@@ -6,6 +6,7 @@ export default function TermsAndConditions() {
     <div className='Container'>
       <section className='Container_item'>
       <h4 className='WelCome_Name'>Community Standards</h4>
+      <br/>
       <p className='Content_detailes' >
       Murthy Chat welcomes you to our chat application. We value authenticity, kindness, and we
 are proud to offer a platform that empowers the community, you to share a participation in

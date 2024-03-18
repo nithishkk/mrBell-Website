@@ -19,7 +19,10 @@ function Main() {
     </div> */}
   <div className="left-side">
     <div className='Murthy_Chart'>
+      <Link to ="/" className='Top-Name'>
       <h1>Murthy Chat</h1>
+      </Link>
+     
       <br/>
       <p>Chat Room</p>
     </div>
@@ -35,15 +38,21 @@ function Main() {
         <p className="SearchName">{searchTerm}</p>
 
   </div>
+  <p className='Inc'>©2024 Kuchi Inc</p>
+
   </div>
 
   <div className="right-side">
-    <h1 className="Label_Name">Village Radio</h1>
+    <p className="Label_Name">Village Radio</p>
     <img src={NameTitle} alt="name" className="name_img" />
     <div className="Links">
-      <Link to="/terms-and-condition">Terms and Condition</Link>
+      <Link to="/terms-and-condition">Terms </Link>
       <Link to="/privacy-policy">Privacy Policy</Link>
       <Link to="/community-standards">Community Standards</Link>
+      <Link to="/Contact">Contact</Link>
+      {/* <Link to="/">@2024 Kuchi Inc</Link> */}
+
+      
     </div>
   </div>
 </div>
