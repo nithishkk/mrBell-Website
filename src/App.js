@@ -10,7 +10,7 @@ import Contact from './Pages/Contact';
 
 export default function App() {
   return (
-<>
+<div>
 
 <Routes>
        <Route path="/" element={<Main/>} />
@@ -19,7 +19,7 @@ export default function App() {
         <Route path="/community-standards" element={<CommunityStandards />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
-</>
+</div>
 
   )
 }
