@@ -18,7 +18,19 @@
   color: #3e2723;
   text-decoration: none;
   
+  
 }
+.Title-container {
+  display: flex;
+  align-items: center; 
+  gap:1px;
+}
+
+// .Title-img {
+//   width: 10px;
+//   margin-right: 1px; /* Adjust margin as needed */
+// }
+
 
 .left-side {
   // padding-top: 10px;
@@ -34,7 +46,7 @@
 
 .Murthy_Chart {
   margin-top: 0px;
-  margin-left: 22px;
+  margin-left: 15px;
   display: inline-block; 
 }
 .Chat-Room{
@@ -46,8 +58,8 @@
   height: 80px;
 }
 .Title-img{
-  height: 90px;
-  width: 200px;
+  height: 60px;
+  width: 60px;
 }
 
 .Chart_Room {

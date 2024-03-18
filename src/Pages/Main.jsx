@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Title from '../Images/MC-logo-horizontal.svg';
+import Title from '../Images/MC-logo-bubble.svg';
 import Name from '../Images/WhatsApp Image 2024-03-11 at 8.25.45 PM.jpeg';
 import NameTitle from '../Images/Yellow Did you know interesting fact Instagram post.png';
 
@@ -20,10 +20,14 @@ function Main() {
     </div> */}
   <div className="left-side">
     <div className='Murthy_Chart'>
-      {/* <Link to ="/" className='Top-Name'>
-      <h1>Murthy Chat</h1>
-      </Link> */}
-      <img src={Title} alt='Title' className='Title-img'/>    
+     
+    <div className="Title-container">
+  <img src={Title} alt='Title' className='Title-img'/>  
+  <Link to="/" className='Top-Name'>
+    <h1>Murthy Chat</h1>
+  </Link>
+</div>
+
       <br/>
       <p className='Chat-Room'>Chat Room</p>
     </div>
