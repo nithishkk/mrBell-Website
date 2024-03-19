@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Title from '../Images/MC-logo-bubble (2).svg';
+import Title from '../Images/MC-logo-bubble.svg';
 import Name from '../Images/WhatsApp Image 2024-03-11 at 8.25.45 PM.jpeg';
 import NameTitle from '../Images/Yellow Did you know interesting fact Instagram post.png';
 
