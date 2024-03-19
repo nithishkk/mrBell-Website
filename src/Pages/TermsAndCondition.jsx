@@ -9,6 +9,7 @@ export default function TermsAndConditions() {
       <section className='Container_item'>
       <h4 className='WelCome_Name'>Terms</h4>
       <p className='WelCome'>Welcome to Murthy Chat</p>
+      <br/>
       <p className='Content_detailes' >
           Here we are dreaming of Unite village communities & Documenting village
           life. To help that to happen, we want to be extra clear about what it
