@@ -107,7 +107,7 @@ export default function TermsAndConditions() {
       &nbsp;
       &nbsp;
       <p className='Content_detailes'>
-        Our Privacy Policy (<Link to="/privacy-policy">privacy-policy</Link>) describes what information you share with us, when it is shared, and how we
+        Our Privacy Policy (<Link to="/privacy-policy" style={{textDecoration:"none"}}><span style={{color:"#000000",textDecoration:"none"}}>privacy-policy</span></Link>) describes what information you share with us, when it is shared, and how we
         handle it when you use our Services. By using our services, you
         understand and consent that we must collect, use, store, process, share,
         and transfer this information to countries where we operate our Services
