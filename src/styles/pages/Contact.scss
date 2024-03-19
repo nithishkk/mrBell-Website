@@ -64,3 +64,22 @@ button:hover {
 button:focus {
     outline: none;
 }
+
+
+.Contact-Links{
+    display: flex;
+    // gap:20px;
+    justify-content: space-around; /* Distribute space evenly between items */
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 500px;
+    margin-left: 790px;
+  }
+  
+  .Contact-Links a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #3e2723;
+    padding-top: 20px;
+  }
+  

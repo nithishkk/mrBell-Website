@@ -280,6 +280,15 @@ export default function TermsAndConditions() {
       </section>
      
     </div>
+   
+    <div className="Tearms-Links">
+      <Link to="/">Home </Link>
+      <Link to="/privacy-policy">Privacy Policy</Link>
+      <Link to="/community-standards">Community Standards</Link>
+      <Link to="/Contact">Contact</Link>
+      <Link to="">©2024 Kuchi Inc</Link>
+
+    </div>
     </>
   );
 }

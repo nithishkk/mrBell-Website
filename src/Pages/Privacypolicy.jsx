@@ -1,5 +1,6 @@
 import React from "react";
 import Title from '../Images/MC-logo-bubble.svg';
+import { Link } from 'react-router-dom';
 
 export default function Privacypolicy() {
   return (
@@ -302,6 +303,14 @@ export default function Privacypolicy() {
           queries.
         </p>
       </section>
+    </div>
+    <div className="Tearms-Links">
+      <Link to="/">Home </Link>
+      <Link to="/terms-and-condition">Terms</Link>
+      <Link to="/community-standards">Community Standards</Link>
+      <Link to="/Contact">Contact</Link>
+      <Link to="">©2024 Kuchi Inc</Link>
+
     </div>
     </>
   );

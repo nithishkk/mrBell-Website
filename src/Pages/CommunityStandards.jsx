@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Title from '../Images/MC-logo-bubble.svg';
+import { Link } from 'react-router-dom';
 
 export default function TermsAndConditions() {
   return (
@@ -116,7 +117,14 @@ opportunity to contest it by writing to us
       <p className='Content_detailes'>That’s it for now.</p>
        
       </section>
-     
+      <div className="Community-Links">
+      <Link to="/">Home </Link>
+      <Link to="/terms-and-condition">Terms </Link>
+      <Link to="/privacy-policy">Privacy Policy</Link>
+      <Link to="/Contact">Contact</Link>
+      <Link to="">©2024 Kuchi Inc</Link>
+
+    </div>
     </div>
     </>
   );

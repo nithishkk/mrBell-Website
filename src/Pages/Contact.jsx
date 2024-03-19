@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Title from '../Images/MC-logo-bubble.svg';
+import { Link } from 'react-router-dom';
 
 function ContactPage() {
     const [formData, setFormData] = useState({
@@ -85,6 +86,16 @@ function ContactPage() {
                     </div>
                 </form>
             </div>
+            <div className="Contact-Links">
+      <Link to="/">Home </Link>
+      <Link to="/terms-and-condition">Terms </Link>
+      <Link to="/privacy-policy">Privacy Policy</Link>
+      <Link to="/community-standards">Community Standards</Link>
+ 
+      {/* <Link to="/Contact">Contact</Link> */}
+      <Link to="">©2024 Kuchi Inc</Link>
+
+    </div>
         </>
     );
 }
