@@ -149,8 +149,8 @@ who has the legal authority to create an account on behalf of another person, co
         We do not tolerate harassment, intimidation, defamation, threats,
         hateful content, child sexual exploitation, sexual abuse, promotion of
         suicide or self-harm, intellectual property theft, or other illegal
-        activities. For detailed information, see our Community Standards (
-          <Link to="/community-standards"  style={{textDecoration:"none"}}><span style={{color:"#000000",textDecoration:"none"}}>Community Standards</span></Link>), which are part of the User Agreement.
+        activities. For detailed information, see our 
+          <Link to="/community-standards"  style={{textDecoration:"none"}}><span style={{color:"#000000",textDecoration:"none"}}>Community Standards</span></Link>, which are part of the User Agreement.
       </p>
       &nbsp;
         &nbsp;
