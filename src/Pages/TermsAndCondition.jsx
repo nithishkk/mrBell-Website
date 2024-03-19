@@ -14,7 +14,7 @@ export default function TermsAndConditions() {
 
       </a>
   <a href="/" className='Top-Name1'>
-    <h2>MurthyChat</h2>
+    <h2>Murthy Chat</h2>
   </a>
 </div>
     <div className='Container'>
@@ -40,9 +40,9 @@ export default function TermsAndConditions() {
         &nbsp;
       <p className='Content_detailes'>
         To do that, we created these Terms of Service (“Terms”), our
-        <Link to="/privacy-policy" > <span style={{color:"#000000",textDecoration:"none"}}> privacy-policy</span> 
+        <Link to="/privacy-policy" style={{textDecoration:"none"}} > <span style={{color:"#000000",textDecoration:"none"}}> Privacy Policy</span> 
           </Link>, and &nbsp;
-        <Link to="/community-standards" ><span style={{color:"#000000",textDecoration:"none"}}>community-standards </span></Link> (together the “User Agreement”). Throughout the User Agreement,
+        <Link to="/community-standards" style={{textDecoration:"none"}} ><span style={{color:"#000000",textDecoration:"none"}}>Community Standards </span></Link> (together the “User Agreement”). Throughout the User Agreement,
         some words have specific meanings and they should be interpreted the
         same way wherever they are used. If anything is unclear, or you don’t
         understand what we’re saying – don’t hesitate to reach out. Our goal is

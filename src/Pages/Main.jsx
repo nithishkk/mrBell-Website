@@ -39,7 +39,7 @@ function Main() {
     <textarea
       value={searchTerm}
       onChange={handleInputChange}
-      placeholder="Search..."
+      placeholder="Type here'"
       className="search-input"
       rows={4}
       cols={50}
