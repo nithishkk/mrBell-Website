@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Title from '../Images/MC-logo-bubble.svg';
 
 function ContactPage() {
     const [formData, setFormData] = useState({
@@ -54,6 +55,15 @@ function ContactPage() {
 
     return (
         <>
+        <div className="Title-container1">
+      <a href='/'>
+      <img src={Title} alt='Title' className='Title-img1'/>  
+
+      </a>
+  <a href="/" className='Top-Name1'>
+    <h2>Murthy Chat</h2>
+  </a>
+</div>
             <h1 className='Contact'>Contact Us</h1>
             <div className="contact-container">
                 <form onSubmit={handleSubmit}>

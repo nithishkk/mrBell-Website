@@ -1,8 +1,20 @@
 import React from "react";
+import Title from '../Images/MC-logo-bubble.svg';
 
 export default function Privacypolicy() {
   return (
+    <>
+    <div className="Title-container1">
+      <a href='/'>
+      <img src={Title} alt='Title' className='Title-img1'/>  
+
+      </a>
+  <a href="/" className='Top-Name1'>
+    <h2>Murthy Chat</h2>
+  </a>
+</div>
     <div className="Container">
+            
       <section className="Container_item">
         <h4 className="WelCome_Name">Privacy policy.</h4>
         <br />
@@ -291,5 +303,6 @@ export default function Privacypolicy() {
         </p>
       </section>
     </div>
+    </>
   );
 }

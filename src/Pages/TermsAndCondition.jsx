@@ -1,14 +1,31 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Title from '../Images/MC-logo-bubble.svg';
+
 
 
 export default function TermsAndConditions() {
   return (
+    <>
+    <div className="Title-container1">
+      <a href='/'>
+      <img src={Title} alt='Title' className='Title-img1'/>  
+
+      </a>
+  <a href="/" className='Top-Name1'>
+    <h2>Murthy Chat</h2>
+  </a>
+</div>
     <div className='Container'>
+  
+      
       <section className='Container_item'>
+
       <h4 className='WelCome_Name'>Terms</h4>
       <p className='WelCome'>Welcome to Murthy Chat</p>
+      
+     
       <br/>
       <p className='Content_detailes' >
           Here we are dreaming of Unite village communities & Documenting village
@@ -263,5 +280,6 @@ export default function TermsAndConditions() {
       </section>
      
     </div>
+    </>
   );
 }

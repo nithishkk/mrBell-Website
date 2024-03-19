@@ -1,9 +1,22 @@
 
 import React from 'react';
+import Title from '../Images/MC-logo-bubble.svg';
 
 export default function TermsAndConditions() {
   return (
+      <>
+      <div className="Title-container1">
+      <a href='/'>
+      <img src={Title} alt='Title' className='Title-img1'/>  
+
+      </a>
+  <a href="/" className='Top-Name1'>
+    <h2>Murthy Chat</h2>
+  </a>
+</div>
     <div className='Container'>
+     
+
       <section className='Container_item'>
       <h4 className='WelCome_Name'>Community Standards</h4>
       <br/>
@@ -105,5 +118,6 @@ opportunity to contest it by writing to us
       </section>
      
     </div>
+    </>
   );
 }

@@ -2,13 +2,27 @@
   margin: 2px;
   position: relative;
   width: 100%; /* Adjusted width to make it responsive */
-  max-width: 1200px; /* Added max-width for better responsiveness */
-  margin-left: 30px;
+  max-width: 850px; /* Added max-width for better responsiveness */
+  margin-left: auto;
   margin-right: auto;
 }
 
 .Container_item {
   margin-top: 40px;
+}
+.Title-img1{
+  height: 60px;
+  width: 40px;
+}
+.Title-container1 {
+  display: flex;
+  align-items: center; 
+  gap:1px;
+  margin-left: 10px;
+}
+.Top-Name1{
+  color: #3e2723;
+  text-decoration: none;
 }
 
 .WelCome_Name {
