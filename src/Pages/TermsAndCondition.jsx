@@ -40,8 +40,9 @@ export default function TermsAndConditions() {
         &nbsp;
       <p className='Content_detailes'>
         To do that, we created these Terms of Service (“Terms”), our Privacy
-        Policy (<Link to="/privacy-policy">privacy-policy</Link>), and
-        Community Standards (<Link to="/community-standards">community-standards</Link>) (together the “User Agreement”). Throughout the User Agreement,
+        Policy (<Link to="/privacy-policy" style={{textDecoration:"none"}}> <span style={{color:"#000000",textDecoration:"none"}}> privacy-policy</span> 
+          </Link>), and
+        Community Standards (<Link to="/community-standards" style={{textDecoration:"none"}}><span style={{color:"#000000",textDecoration:"none"}}>community-standards </span></Link>) (together the “User Agreement”). Throughout the User Agreement,
         some words have specific meanings and they should be interpreted the
         same way wherever they are used. If anything is unclear, or you don’t
         understand what we’re saying – don’t hesitate to reach out. Our goal is
@@ -150,7 +151,7 @@ export default function TermsAndConditions() {
         hateful content, child sexual exploitation, sexual abuse, promotion of
         suicide or self-harm, intellectual property theft, or other illegal
         activities. For detailed information, see our Community Standards (
-          <Link to="/community-standards">Community Standards</Link>), which are part of the User Agreement.
+          <Link to="/community-standards"  style={{textDecoration:"none"}}><span style={{color:"#000000",textDecoration:"none"}}>Community Standards</span></Link>), which are part of the User Agreement.
       </p>
       &nbsp;
         &nbsp;
