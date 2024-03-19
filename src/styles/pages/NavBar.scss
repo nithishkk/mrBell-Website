@@ -50,7 +50,7 @@
   display: inline-block; 
 }
 .Chat-Room{
-  margin-left: 22px;
+  margin-left: 80px;
 }
 
 .img_logo {
@@ -169,8 +169,9 @@
 
 .Label_Name {
   font-size: 17px;
-  padding-top: 80px;
-  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  margin-left: 180px;
   // display: inline-block; 
 }
 
@@ -213,7 +214,7 @@
 .Links {
   display: flex;
   justify-content: space-around; /* Distribute space evenly between items */
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .Links a {

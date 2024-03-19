@@ -29,10 +29,11 @@ function Main() {
   <a href="/" className='Top-Name'>
     <h2>Murthy Chat</h2>
   </a>
+  <p className='Chat-Room'>Chat Room</p>
 </div>
 
       <br/>
-      <p className='Chat-Room'>Chat Room</p>
+      {/* <p className='Chat-Room'>Chat Room</p> */}
     </div>
     <div class="search-container">
     <textarea
