@@ -43,7 +43,7 @@ function Main() {
         <p className="SearchName">{searchTerm}</p>
 
   </div>
-  <p className='Inc'>©2024 Kuchi Inc</p>
+  {/* <p className='Inc'>©2024 Kuchi Inc</p> */}
 
   </div>
 
@@ -55,7 +55,7 @@ function Main() {
       <Link to="/privacy-policy">Privacy Policy</Link>
       <Link to="/community-standards">Community Standards</Link>
       <Link to="/Contact">Contact</Link>
-      {/* <Link to="/">@2024 Kuchi Inc</Link> */}
+      <Link to="/">@2024 Kuchi Inc</Link>
 
       
     </div>
