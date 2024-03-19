@@ -106,7 +106,7 @@ who has the legal authority to create an account on behalf of another person, co
       &nbsp;
       &nbsp;
       <p className='Content_detailes'>
-        Our <Link to="/privacy-policy" ><span style={{color:"#000000",textDecoration:"none"}}>privacy-policy</span></Link> describes what information you share with us, when it is shared, and how we
+        Our <Link to="/privacy-policy" style={{textDecoration:"none"}} ><span style={{color:"#000000"}}>Privacy-Policy</span></Link> describes what information you share with us, when it is shared, and how we
         handle it when you use our Services. By using our services, you
         understand and consent that we must collect, use, store, process, share,
         and transfer this information to countries where we operate our Services
