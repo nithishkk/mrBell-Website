@@ -22,10 +22,13 @@ function Main() {
     <div className='Murthy_Chart'>
      
     <div className="Title-container">
-  <img src={Title} alt='Title' className='Title-img'/>  
-  <Link to="/" className='Top-Name'>
-    <h1>Murthy Chat</h1>
-  </Link>
+      <a href='/'>
+      <img src={Title} alt='Title' className='Title-img'/>  
+
+      </a>
+  <a href="/" className='Top-Name'>
+    <h2>Murthy Chat</h2>
+  </a>
 </div>
 
       <br/>
