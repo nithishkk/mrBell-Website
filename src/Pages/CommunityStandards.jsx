@@ -31,9 +31,9 @@ feeling safe.
        <br/>
       <p className='Content_detailes'>
       Our Community Standards are designed to help ensure that you, and all our users, use our
-services safely, and they must be taken seriously. They are part of our   <Link to="/terms-and-condition" > <span style={{color:"#000000",textDecoration:"none"}}> Terms of Service</span> 
+services safely, and they must be taken seriously. They are part of our   <Link to="/terms-and-condition" style={{textDecoration:"none"}} > <span style={{color:"#000000",textDecoration:"none"}}> Terms of Service</span> 
           </Link>, and
-our   <Link to="/privacy-policy" > <span style={{color:"#000000",textDecoration:"none"}}> privacy-policy</span> 
+our   <Link to="/privacy-policy" style={{textDecoration:"none"}} > <span style={{color:"#000000",textDecoration:"none"}}> Privacy Policy</span> 
           </Link>, (together the “User Agreement”). If you don’t agree with any part of the
 User Agreement, including the Community Standards, then it might be that Murthy Chat
 isn’t for you.

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Title from '../Images/MC-logo-bubble.svg';
 import Name from '../Images/WhatsApp Image 2024-03-11 at 8.25.45 PM.jpeg';
 import NameTitle from '../Images/Yellow Did you know interesting fact Instagram post.png';
+import NameImg from "../Images/villsge-text.svg"
 
 
 function Main() {
@@ -53,7 +54,7 @@ function Main() {
 
   <div className="right-side">
     <p className="Label_Name">Village Radio</p>
-    <img src={NameTitle} alt="name" className="name_img" />
+    <img src={NameImg} alt="name" className="name_img" />
     <div className="Links">
       <Link to="/terms-and-condition">Terms </Link>
       <Link to="/privacy-policy">Privacy Policy</Link>

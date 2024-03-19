@@ -94,7 +94,7 @@ export default function Privacypolicy() {
           <ul>
             <li>Cameras and Photos Library: You can create an account without allowing us to access and collect data from your device’s camera or photo library. If you refuse to allow us this access, you will not be able to share or see Content on our Services. It’s a fundamental part of how Murthy Chat works.</li>
             <li>Geolocation Data: When you share your Geolocation data with us as part of your Content, the information is retained for as long as the Content remains on our system (i.e., until you delete the Content or your account).  </li>
-            <li>Address Book Data: You can decide to allow MurthyChat to access your address book to identify the friends in your Address Book who may already be on MurthyChat. We do not access your Address Book without your permission. If you decide to find your friends by giving us access to your Address Book, we hash the phone numbers in your Address Book (we don’t look at anything else), securely send those hashed phone numbers to our systems, compare those hashed numbers to the list of hashed phone numbers for other Murthy Chat users, and return the appropriate data based on the Address book. 
+            <li>Address Book Data: You can decide to allow Murthy Chat to access your address book to identify the friends in your Address Book who may already be on Murthy Chat. We do not access your Address Book without your permission. If you decide to find your friends by giving us access to your Address Book, we hash the phone numbers in your Address Book (we don’t look at anything else), securely send those hashed phone numbers to our systems, compare those hashed numbers to the list of hashed phone numbers for other Murthy Chat users, and return the appropriate data based on the Address book. 
               
             </li>
             <li>Integrations with partners: When you decide to connect a partner application to use a specific integration on Murthy Chat, we receive information that allows us to bring that feature to you. This will include all necessary device data, and</li>
@@ -165,9 +165,9 @@ export default function Privacypolicy() {
           approximate location.
           <br />
           <strong>Address Book Data:</strong>
-          <br /> You can decide to allow MurthyChat to access your address book
+          <br /> You can decide to allow Murthy Chat to access your address book
           to identify the friends in your Address Book who may already be on
-          MurthyChat. We do not access your Address Book without your
+          Murthy Chat. We do not access your Address Book without your
           permission. If you decide to find your friends by giving us access to
           your Address Book, we hash the phone numbers in your Address Book (we
           don’t look at anything else), securely send those hashed phone numbers
@@ -225,7 +225,7 @@ export default function Privacypolicy() {
             <br/>
             <li>Account Creation Data: retained indefinitely (i.e., as long as you have an active account) as it is required to provide and operate an account for you. If you choose to delete your account this information will be deleted.</li> <br/>
             <li>Content Data: retained indefinitely (i.e., as long as you have an active account) or until the Content is deleted by you.</li> <br/>
-            <li>Communications with MurthyChat: retained for no longer than 24 months.</li>  <br/>
+            <li>Communications with Murthy Chat: retained for no longer than 24 months.</li>  <br/>
             <li>Connection and Technical Data: retained for no longer than 24 months, however, some connection data is also part of the Account Creation Data and is kept consistent with retention periods for that data.</li> <br/>
             <li>Interaction Data: retained indefinitely (i.e., as long as you have an active account) or until the interaction is deleted by you.</li>  <br/>
             <li>Cameras and Photos library: Content data is retained indefinitely (i.e., as long as you have an active account) or until the Content is deleted by you.</li> <br/>
