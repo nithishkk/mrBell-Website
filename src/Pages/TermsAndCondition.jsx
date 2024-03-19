@@ -14,7 +14,7 @@ export default function TermsAndConditions() {
 
       </a>
   <a href="/" className='Top-Name1'>
-    <h2>Murthy Chat</h2>
+    <h2>MurthyChat</h2>
   </a>
 </div>
     <div className='Container'>
@@ -23,30 +23,30 @@ export default function TermsAndConditions() {
       <section className='Container_item'>
 
       <h4 className='WelCome_Name'>Terms</h4>
-      <p className='WelCome'>Welcome to Murthy Chat</p>
+      <p className='WelCome'>Welcome to MurthyChat</p>
       
      
       <br/>
       <p className='Content_detailes' >
           Here we are dreaming of Unite village communities & Documenting village
           life. To help that to happen, we want to be extra clear about what it
-          means to be part of the Murthy Chat community. We want you to know what
+          means to be part of the MurthyChat community. We want you to know what
           you can expect from us, what we expect from you, and how together we can
-          make Murthy Chat better for you and your community.
+          make MurthyChat better for you and your community.
         </p>
         &nbsp;
         &nbsp;
         &nbsp;
         &nbsp;
       <p className='Content_detailes'>
-        To do that, we created these Terms of Service (“Terms”), our Privacy
-        Policy (<Link to="/privacy-policy" style={{textDecoration:"none"}}> <span style={{color:"#000000",textDecoration:"none"}}> privacy-policy</span> 
-          </Link>), and
-        Community Standards (<Link to="/community-standards" style={{textDecoration:"none"}}><span style={{color:"#000000",textDecoration:"none"}}>community-standards </span></Link>) (together the “User Agreement”). Throughout the User Agreement,
+        To do that, we created these Terms of Service (“Terms”), our
+        <Link to="/privacy-policy" > <span style={{color:"#000000",textDecoration:"none"}}> privacy-policy</span> 
+          </Link>, and &nbsp;
+        <Link to="/community-standards" ><span style={{color:"#000000",textDecoration:"none"}}>community-standards </span></Link> (together the “User Agreement”). Throughout the User Agreement,
         some words have specific meanings and they should be interpreted the
         same way wherever they are used. If anything is unclear, or you don’t
         understand what we’re saying – don’t hesitate to reach out. Our goal is
-        to maximize transparency and understanding about how Murthy Chat works.
+        to maximize transparency and understanding about how MurthyChat works.
       </p>
        &nbsp;
         &nbsp;
@@ -72,7 +72,7 @@ export default function TermsAndConditions() {
       &nbsp;
       &nbsp;
       <p className='Content_detailes'>
-        Our Services mean all aspects of the Murthy Chat mobile applications,
+        Our Services mean all aspects of the MurthyChat mobile applications,
         our website (Website), and the software and systems powering the
         applications and our website.
       </p>
@@ -80,9 +80,8 @@ export default function TermsAndConditions() {
         &nbsp;
         &nbsp;
       <p className='Content_detailes'>
-        - who is at least 13 years old. Depending on where you live, if you are
-        under the age of consent in your country, a parent or guardian may also
-        have to provide consent for you to use our Services; or
+      who is at least 13 years old. Depending on where you live, if you are under the age of consent in your country, a parent or guardian may also have to provide consent for you to use our Services; or
+who has the legal authority to create an account on behalf of another person, company, organization, government or other legal entity, if you’re not creating an account for yourself
       </p>
       &nbsp;
         &nbsp;
@@ -107,7 +106,7 @@ export default function TermsAndConditions() {
       &nbsp;
       &nbsp;
       <p className='Content_detailes'>
-        Our Privacy Policy (<Link to="/privacy-policy" style={{textDecoration:"none"}}><span style={{color:"#000000",textDecoration:"none"}}>privacy-policy</span></Link>) describes what information you share with us, when it is shared, and how we
+        Our <Link to="/privacy-policy" ><span style={{color:"#000000",textDecoration:"none"}}>privacy-policy</span></Link> describes what information you share with us, when it is shared, and how we
         handle it when you use our Services. By using our services, you
         understand and consent that we must collect, use, store, process, share,
         and transfer this information to countries where we operate our Services
@@ -160,6 +159,10 @@ export default function TermsAndConditions() {
         You own the Content you share through our Services and grant MurthyChat
         a license to use the Content under the following conditions:
       </p>
+      <p className='Content_detailes'>Content means Content you shared with everyone on MurthyChat. In exchange for using our Services, you grant us a worldwide, non-exclusive, royalty-free, sublicensable license to use, copy, reproduce, process, adapt, modify, publish, transmit, display and distribute the content you share with any and all media or distribution methods. This license authorizes us to make your Shared Content available to the rest of the world and to let others do the same. You agree that this license includes the right for MurthyChat to provide, promote, and improve our Services and to make Shared Content available to other companies, organizations or individuals for the syndication, broadcast, distribution, promotion or publication on other media and services. Such additional uses by Murthy Chat, or other companies, organizations or individuals, is made with no compensation paid to you with respect to the Globally Shared Content as the use of our Services by you is hereby agreed as being sufficient compensation.
+</p>
+<br/>
+<p className='Content_detailes'>Content you share in the village Memories or Village Updates or through Post on a voluntary basis, other members of community may choose to share the content with Murthy Chat so that it can be used for communication, to use the content shared by members for any commercial purpose like displaying in billboards or any other advertisements you need to give Murthy Chat a licence to use content.</p>
       &nbsp;
       &nbsp;
       {/* Additional content... */}
@@ -201,8 +204,8 @@ export default function TermsAndConditions() {
       <p className='Content_detailes'>
         Our Services are protected by copyright, trademark, trade secret, and
         other laws around the world. As tempting as it may be, nothing in the
-        User Agreement gives you a right to use the Murthy Chat name or any of
-        the Murthy Chat trademarks, logos, domain names, other distinctive
+        User Agreement gives you a right to use the MurthyChat name or any of
+        the MurthyChat trademarks, logos, domain names, other distinctive
         brand features, and other proprietary rights.
       </p>
       &nbsp;
@@ -213,7 +216,7 @@ export default function TermsAndConditions() {
       &nbsp;
       &nbsp;
       <p className='Content_detailes'>
-        By using our Services, you agree that Murthy Chat, its affiliates,
+        By using our Services, you agree that MurthyChat, its affiliates,
         related companies, officers, directors, employees, agent’s
         representatives, partners, and licensors, liability is limited to the
         maximum extent permissible in your country of residence.
@@ -226,9 +229,9 @@ export default function TermsAndConditions() {
       &nbsp;
       &nbsp;
       <p className='Content_detailes'>
-        To the extent that these Terms allow you or Murthy Chat to initiate
-        litigation in a court, both you and Murthy Chat consent to the exclusive
-        jurisdiction of the Indian courts and law. You and Murthy Chat agree
+        To the extent that these Terms allow you or MurthyChat to initiate
+        litigation in a court, both you and MurthyChat consent to the exclusive
+        jurisdiction of the Indian courts and law. You and MurthyChat agree
         that all claims and disputes (whether contractual or otherwise),
         arising out of or relating to the Terms or User Agreement will be
         litigated exclusively in the courts of India, and that such disputes
@@ -243,7 +246,7 @@ export default function TermsAndConditions() {
       &nbsp;
       &nbsp;
       <p className='Content_detailes'>
-        Murthy Chat may update the User Agreement at any time. If we make an
+        MurthyChat may update the User Agreement at any time. If we make an
         update that impacts either party's rights or obligations, we will let
         you know approximately 30 days before the update goes into effect. If
         you keep using our services after the 30 days, you are agreeing to our
@@ -262,7 +265,7 @@ export default function TermsAndConditions() {
         &nbsp;
         &nbsp;
       <p className='Content_detailes'>
-        The User Agreement is between you and Murthy Chat, with a registered
+        The User Agreement is between you and MurthyChat, with a registered
         office located at K No 576, Thirumani, Pavagada, Karnataka - 572136, and
         which is registered under number 29DEDPK6953J1ZY with the Indian
         Companies Registry.

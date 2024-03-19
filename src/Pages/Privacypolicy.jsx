@@ -84,7 +84,7 @@ export default function Privacypolicy() {
           Like all Internet based services, as you use our Services, we automatically receive information about you from your device and your usage of our Services:
           <ul>
             <li>Connection and Technical Data: IP address, account creation date, last login, terminal equipment and port.</li>
-            <li>Interaction Data: friends, number of friends, friend invitations, reactions, comments you leave on Content shared by others, the friends with whom you interact the most, functional data related to comments or messages.</li>
+            <li>Interaction Data: number of friends, friend invitations, reactions, comments you leave on Content shared by others, the friends with whom you interact the most, functional data related to comments or messages. .</li>
             <li>Selfie in Profile Photo: As we are working with a community a large number of users can join in a single community so to avoid unknown People, we need identification.</li>
             <li>Mother Name: To give representation to Mother.</li>
             <li>Blood Group: To Provide information in the community, so that you can help People in need.</li>
@@ -93,8 +93,10 @@ export default function Privacypolicy() {
           We also receive data when you decide at your discretion to use certain features of our Services:
           <ul>
             <li>Cameras and Photos Library: You can create an account without allowing us to access and collect data from your device’s camera or photo library. If you refuse to allow us this access, you will not be able to share or see Content on our Services. It’s a fundamental part of how Murthy Chat works.</li>
-            <li>Geolocation Data: You can decide to share your location; it helps to serve you better. If you choose to share your location, depending on the feature, you can share your precise or approximate location.</li>
-            <li>Address Book Data: You can decide to allow MurthyChat to access your address book to identify the friends in your Address Book who may already be on MurthyChat. We do not access your Address Book without your permission. If you decide to find your friends by giving us access to your Address Book, we hash the phone numbers in your Address Book (we don’t look at anything else), securely send those hashed phone numbers to our systems, compare those hashed numbers to the list of hashed phone numbers for other Murthy Chat users, and return the appropriate data based on the Address book. We use geolocation and Address books to provide better service.</li>
+            <li>Geolocation Data: When you share your Geolocation data with us as part of your Content, the information is retained for as long as the Content remains on our system (i.e., until you delete the Content or your account).  </li>
+            <li>Address Book Data: You can decide to allow MurthyChat to access your address book to identify the friends in your Address Book who may already be on MurthyChat. We do not access your Address Book without your permission. If you decide to find your friends by giving us access to your Address Book, we hash the phone numbers in your Address Book (we don’t look at anything else), securely send those hashed phone numbers to our systems, compare those hashed numbers to the list of hashed phone numbers for other Murthy Chat users, and return the appropriate data based on the Address book. 
+              
+            </li>
             <li>Integrations with partners: When you decide to connect a partner application to use a specific integration on Murthy Chat, we receive information that allows us to bring that feature to you. This will include all necessary device data, and</li>
           </ul>
         </p>

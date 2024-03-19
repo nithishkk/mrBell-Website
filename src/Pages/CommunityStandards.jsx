@@ -22,7 +22,7 @@ export default function TermsAndConditions() {
       <h4 className='WelCome_Name'>Community Standards</h4>
       <br/>
       <p className='Content_detailes' >
-      Murthy Chat welcomes you to our chat application. We value authenticity, kindness, and we
+      Murthy Chat welcomes you to our chat application chat and village community platform. We value authenticity , kindness, and we
 are proud to offer a platform that empowers the community, you to share a participation in
 development and store your culture, be memories of the village through its members. We
 want Murthy Chat to be a place where people can have fun and express themselves while
@@ -31,8 +31,10 @@ feeling safe.
        <br/>
       <p className='Content_detailes'>
       Our Community Standards are designed to help ensure that you, and all our users, use our
-services safely, and they must be taken seriously. They are part of our Terms of Service and
-our Privacy Policy (together the “User Agreement”). If you don’t agree with any part of the
+services safely, and they must be taken seriously. They are part of our   <Link to="/terms-and-condition" > <span style={{color:"#000000",textDecoration:"none"}}> Terms of Service</span> 
+          </Link>, and
+our   <Link to="/privacy-policy" > <span style={{color:"#000000",textDecoration:"none"}}> privacy-policy</span> 
+          </Link>, (together the “User Agreement”). If you don’t agree with any part of the
 User Agreement, including the Community Standards, then it might be that Murthy Chat
 isn’t for you.
       </p>
@@ -85,7 +87,8 @@ expressing a desire for violence or harm.
       <p className='Content_detailes'>
       How to make a report
 You can report any violation of these Community Standards directly through the reporting
-tools in the Murthy Chat application or through our web form here(Link). The Murthy Chat
+tools in the Murthy Chat application or through our web form here  <Link to="/Contact" > <span style={{color:"#000000",textDecoration:"none"}}>Contact</span> 
+          </Link>, The Murthy Chat
 Support Team will review the report and reply if needed. We may use your contact
 information, including your username, Phone number, to get in contact with you.
       </p>
