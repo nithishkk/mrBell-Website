@@ -159,6 +159,7 @@ who has the legal authority to create an account on behalf of another person, co
         You own the Content you share through our Services and grant Murthy Chat
         a license to use the Content under the following conditions:
       </p>
+      <br/>
       <p className='Content_detailes'>Content means Content you shared with everyone on Murthy Chat. In exchange for using our Services, you grant us a worldwide, non-exclusive, royalty-free, sublicensable license to use, copy, reproduce, process, adapt, modify, publish, transmit, display and distribute the content you share with any and all media or distribution methods. This license authorizes us to make your Shared Content available to the rest of the world and to let others do the same. You agree that this license includes the right for Murthy Chat to provide, promote, and improve our Services and to make Shared Content available to other companies, organizations or individuals for the syndication, broadcast, distribution, promotion or publication on other media and services. Such additional uses by Murthy Chat, or other companies, organizations or individuals, is made with no compensation paid to you with respect to the Globally Shared Content as the use of our Services by you is hereby agreed as being sufficient compensation.
 </p>
 <br/>
