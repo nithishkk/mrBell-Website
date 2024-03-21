@@ -167,8 +167,10 @@
   // overflow: hidden; /* Hide overflow content */
   // overflow: hidden; /* Hide overflow content */
 }
-
 .Label_Name {
+  font-family:'Gelion Black';
+  font-weight:normal;
+  font-size:42px;
   font-weight: 500;
   font-size: 17px;
   margin-top: 5px;
@@ -246,6 +248,9 @@
     width: 100%; /* Adjusted width for padding */
     height: auto; /* Auto height to fit content */
   }
+  .Title-img{
+    margin-left: 1px;
+  }
 
   .name_img {
     width: 100%; /* Adjusted width to fill the parent container */
@@ -253,6 +258,11 @@
     margin-left: 0; /* Removed specific margin-left */
     margin-top: 10px; /* Adjusted margin-top */
     margin-bottom: 10px;
+  }
+  .Chat-Room{
+    font-weight: 900;
+    margin-left: 20px;
+    width: 100px;
   }
 
   .Label_Name {
