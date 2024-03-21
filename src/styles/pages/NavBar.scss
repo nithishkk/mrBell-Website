@@ -234,7 +234,7 @@
 
 @media (max-width: 600px) {
   .container {
-    max-width: 600px; /* Set maximum width to 400px */
+    max-width: 900px; /* Set maximum width to 400px */
     width: 100%; /* Make sure it fills the available width */
     display: grid;
     grid-template-columns: 1fr; /* Adjusted to one column for small screens */
@@ -243,7 +243,7 @@
   .left-side, .right-side {
     padding: 20px;
     margin-top: 0px;
-    width: calc(100% - 40px); /* Adjusted width for padding */
+    width: 100%; /* Adjusted width for padding */
     height: auto; /* Auto height to fit content */
   }
 
