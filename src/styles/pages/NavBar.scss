@@ -235,8 +235,7 @@
 @media (max-width: 576px) {
   .container {
     display: grid;
-    width: 100%;
-    // grid-template-columns: 50vh; /* Adjusted to one column for small screens */
+    grid-template-columns: 50vh; /* Adjusted to one column for small screens */
     // grid-template-rows: 60% 40%; /* Left side 60%, Right side 40% */
   }
 
