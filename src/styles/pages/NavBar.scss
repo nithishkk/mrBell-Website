@@ -169,7 +169,7 @@
 }
 
 .Label_Name {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 17px;
   margin-top: 5px;
   margin-bottom: 60px;
@@ -234,56 +234,42 @@
 
 @media (max-width: 600px) {
   .container {
-    width: 400px;
+    max-width: 600px; /* Set maximum width to 400px */
+    width: 100%; /* Make sure it fills the available width */
     display: grid;
-    grid-template-columns: 50vh; /* Adjusted to one column for small screens */
-    // grid-template-rows: 60% 40%; /* Left side 60%, Right side 40% */
+    grid-template-columns: 1fr; /* Adjusted to one column for small screens */
   }
 
-  .left-side {
+  .left-side, .right-side {
     padding: 20px;
     margin-top: 0px;
-    width: 100vh;
-    height: 60px;
-  }
-  .Murthy_Chart {
-    margin-top: 30px;
-    margin-left: 20px;
-  }
-  .search-input {
-    margin-top: 120px;
-    margin-left: 10px;
-  }
-
-  .right-side {
-    // padding: 20px;
-    margin-top: 0px;
-    width: 100vh;
-    height: 60vh;
+    width: calc(100% - 40px); /* Adjusted width for padding */
+    height: auto; /* Auto height to fit content */
   }
 
   .name_img {
-    width: 150px;
-    height: 400px;
-    margin-left: 50px;
-    margin-top: 1px;
+    width: 100%; /* Adjusted width to fill the parent container */
+    height: auto; /* Auto height to maintain aspect ratio */
+    margin-left: 0; /* Removed specific margin-left */
+    margin-top: 10px; /* Adjusted margin-top */
     margin-bottom: 10px;
   }
-  .Label_Name{
-    height: 0px;
-    padding-left: 0px;
-    margin-left: 20px;
-    margin-top: 30px;
+
+  .Label_Name {
+    margin-left: 1px;
+    // display: ; /* Hide the label on mobile view */
   }
+
   .Links {
     display: flex;
-    margin-top: 90px;
+    margin-top: 10px; /* Adjusted margin-top */
     justify-content: space-around;
+    flex-wrap: wrap; /* Allow links to wrap on smaller screens */
   }
   
   .Links a {
-    font-size: 15px;
-    width: 140px;
+    font-size: 14px; /* Decreased font size for better fit */
+    width: auto; /* Allow links to occupy natural width */
     text-decoration: none;
     padding-top: 10px;
     color: #3e2723;
