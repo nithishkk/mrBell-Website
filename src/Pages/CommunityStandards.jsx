@@ -120,7 +120,7 @@ opportunity to contest it by writing to us
       <p className='Content_detailes'>That’s it for now.</p>
        
       </section>
-      <div className="Community-Links">
+      <div className="Tearms-Links">
       <Link to="/">Home </Link>
       <Link to="/terms-and-condition">Terms </Link>
       <Link to="/privacy-policy">Privacy Policy</Link>

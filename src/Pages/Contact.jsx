@@ -86,7 +86,7 @@ function ContactPage() {
                     </div>
                 </form>
             </div>
-            <div className="Contact-Links">
+            <div className="Tearms-Links">
       <Link to="/">Home </Link>
       <Link to="/terms-and-condition">Terms </Link>
       <Link to="/privacy-policy">Privacy Policy</Link>
